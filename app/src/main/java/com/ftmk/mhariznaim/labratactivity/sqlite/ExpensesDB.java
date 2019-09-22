@@ -47,8 +47,10 @@ public class ExpensesDB extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase sqLiteDatabase) {
-       sqLiteDatabase.execSQL(strCreateTblExp);
+    public void onCreate(SQLiteDatabase sqLiteDatabase)
+    {
+
+        sqLiteDatabase.execSQL(strCreateTblExp);
     }
 
     @Override
@@ -98,7 +100,7 @@ public class ExpensesDB extends SQLiteOpenHelper {
                 expensesModel.setStrExpDate(cursor.getString(cursor.getColumnIndex(colExpDate)));
                 expensesModel.setDblExpPrice(cursor.getDouble(cursor.getColumnIndex(colExpPrice)));
                 expensesModel.setStrExpName(cursor.getString(cursor.getColumnIndex(colExpName)));
-
+                listExp.add(expensesModel);
             }while (cursor.moveToNext());
         }
         return  listExp;
