@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LabRatActivity</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblDate">Date</string>
+</resources>

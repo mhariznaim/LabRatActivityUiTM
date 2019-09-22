@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "646395312418",
+    "firebase_url": "https://dailyexpensesfdb.firebaseio.com",
+    "project_id": "dailyexpensesfdb",
+    "storage_bucket": "dailyexpensesfdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646395312418:android:d3d600eaf6c8e334070d7b",
+        "android_client_info": {
+          "package_name": "com.ftmk.mhariznaim.labratactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646395312418-8v9uvagmm1e95gjree4t5f7sb67bh27k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoMI0z0ycWZaKkzctRFmIK7Z3LHVQOe6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646395312418-8v9uvagmm1e95gjree4t5f7sb67bh27k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646395312418:android:187d2384e78ab0ef070d7b",
+        "android_client_info": {
+          "package_name": "com.ftmk.mhariznaim.mydailyexpensesuitm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646395312418-8v9uvagmm1e95gjree4t5f7sb67bh27k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoMI0z0ycWZaKkzctRFmIK7Z3LHVQOe6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646395312418-8v9uvagmm1e95gjree4t5f7sb67bh27k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
